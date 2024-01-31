@@ -1,0 +1,255 @@
+{
+  "intents": [
+    {
+        "tag": "notfound",
+        "patterns": ["", "", "", "", ""],
+        "responses": [
+          "Maaf tidak tahu",
+          "saya tidak tahu",
+          "kata diluar kemampuan kami",
+          "mungkin anda bisa menanyakan mengenai aplikasi ini"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "salam",
+        "patterns": [
+        "Hay",
+        "Hy",
+        "Hallo",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Hai",
+        "p",
+        "hai",
+        "halo",
+        "hay",
+        "hai",
+        "mikum",
+        "assamualaikaum",
+        "hi"
+      ],
+      "responses": [
+        "Halo, terima kasih sudah menyapa",
+        "Hallo, senang bertemu denganmu, ada yang bisa saya lakukan?",
+        "Hai, ada yang bisa saya bantu?"
+      ],
+      "context":[""]
+
+    },
+
+    {
+        "tag": "selamat tinggal",
+        "patterns": [
+        "Sampai jumpa",
+        "dadah",
+        "Selamat tinggal",
+        "Senang mengobrol denganmu, selamat tinggal",
+        "Sampai nanti",
+        "dah"
+      ],
+      "responses": [
+        "Sampai jumpa!",
+        "Semoga harimu menyenangkan",
+        "Bye! Segera kembali lagi."
+      ],
+      "context":[""]
+    },
+
+    {
+        "tag": "terima kasih",
+        "patterns":[
+            "Terima kasih",
+            "Thanks",
+            "Thank you",
+            "Itu membantu",
+            "Luar biasa, terima kasih",
+            "Terima kasih telah membantu saya",
+            "Ok, terima kasih",
+            "makasih",
+            "terimakasih",
+            "thq"
+        ],
+        "responses":[
+            "Yupp!! Senang membantu!",
+            "Yap ^-^ Setiap saat!",
+            "Dengan senang hati"
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag": "tidak bertanya",
+        "patterns" : [],
+        "responses":[
+          "Maaf, tidak dapat memahami Anda",
+          "Tolong beri saya info lebih lanjut",
+          "Tidak yakin saya mengerti"
+        ],
+        "context":[""]
+    },
+    {
+        "tag": "sampah",
+        "patterns" : [
+            "jenis sampah",
+            "jenis sampah apa aja",
+            ""
+        ],
+        "responses":[
+            "Sampah dibagi menjadi 2 jenis, yaitu organik dan anorganik",
+            "Sampah Organik dan Anorganik"
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag": "ok",
+        "patterns":[
+            "oke",
+            "baik",
+            "baiklah",
+            "siap"
+        ],
+        "responses":[
+            "oke",
+            "baik ^-^",
+            "baiklah ^-^"
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag": "trashcare",
+        "patterns":[
+            "Apa itu Trashcare",
+            "Trashcare",
+            "Apasih Trashcare itu",
+            "Arti Trashcare"
+        ],
+        "responses":[
+            "Trashcare adalah platform berbasis website dan mobile yang bisa digunakan untuk mendeteksi jenis sampah",
+            "Aplikasi untuk mendeteksi jenis sampah anorganik"
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag":"pengolahan sampah organik",
+        "patterns":[
+            "Pengolahan sampah organik",
+            "Mengolah sampah organik",
+            ""
+        ],
+        "responses":[
+            "Sampah organik dapat diolah menjadi pupuk organik, biogas, arang briket, pakan ikan / hewan ternak, kerajinan tangan, dan eco enzyme."
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag": "cara mengolah sampah Anorganik",
+        "patterns":[
+            "Bagaimana cara daur ulang sampah Anorganik",
+            "Bagaimana cara mengolah sampah Anorganik",
+            "Cara mengolah sampah Anorganik",
+            "Mengolah sampah"
+        ],
+        "responses":[
+            "1.Mengumpulkan sampah\n Sampah yang bisa digunakan dan didaur ulang menjadi pupuk kompos adalah sampah organik. Kumpulkan sampah-sampah organik untuk dibuat menjadi kompos.\n 2.Proses Pencacahan\n Setelah mengumpulkan sampah organik, lakukan proses pencacahan agar sampah organik tersebut menjadi lebih lembut. Buatlah sampah sayur organik menjadi berukuran 1 sampai dengan 2 cm.\n 3.Proses Pendiaman\n Masukkan semua sampah yang sudah di cacah ke dalam wadah untuk didiamkan agar terjadi pembusukan dan menjadi pupuk kompos\n 4.Diamkan selama 2 Minggu\n Diamkan pupuk tersebut selama 2 minggu agar pembusukan sempurna"
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag":"keuntungan aplikasi",
+        "patterns":[
+            "Apa sih keuntungan dari website ini",
+            "Apa sih keuntungan dari aplikasi ini",
+            "Keuntungan dari aplikasi ini",
+            "Keuntungan dari website ini",
+            "Apa keuntungan dari website ini",
+            "Apa keuntungan dari aplikasi ini"
+        ],
+        "responses":[
+            "keuntungannya adalah Aplikasi ini mudah untuk digunakan",
+            "keuntungannya adalah Website ini mudah untuk digunakan",
+            "Karena ini adalah website yang lengkap dengan fitur deteksi",
+            "Karena ini adalah aplikasi yang lengkap dengan fitur deteksi"
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag":"mengolah sampah plastik",
+        "patterns":[
+            "Bagaimana cara daur ulang sampah plastik",
+            "Cara mengolah sampah plastik",
+            "Cara daur ulang sampah plastik",
+            "Daur ulang sampah plastik",
+            "Daur ulang plastik",
+            "Mengolah plastik"
+        ],
+        "responses":[
+            "Sampah plastik bisa menjadi apa saja. Contohnya Ecobrick, Pot tanaman, Lampu hias, Wadah serbaguna, Dompet, Tas sampah portable, Penyiram DIY, Celengan, dan masih banyak yang lainnya"
+        ],
+        "context":[""]
+    },
+
+    {
+        "tag":"mengolah sampah kardus",
+        "patterns":[
+            "Bagaimana cara daur ulang sampah kardus",
+            "Cara mengolah sampah kardus",
+            "Cara daur ulang sampah kardus",
+            "Daur ulang sampah kardus",
+            "Daur ulang kardus",
+            "Mengolah kardus"
+        ],
+        "responses":[
+            "Ada beberapa ide menarik untuk daur ulang kardus, contohnya Rak buku, Organizer meja, Kotak hadiah, Penyekat meja, Mainan anak anak, dan masih banyak lagi."
+        ],
+        "context":[""]
+    },
+    {
+        "tag":"mengolah sampah kaleng",
+        "patterns":[
+            "Bagaimana cara daur ulang sampah kaleng",
+            "Cara mengolah sampah kaleng",
+            "Cara daur ulang sampah kaleng",
+            "Daur ulang sampah kaleng",
+            "Daur ulang kaleng",
+            "Mengolah kaleng"
+        ],
+        "responses":[
+            "Untuk memanfaatkan kaleng minuman bekas. Dapat dimulai dari membersihkan kaleng bekas, setelah itu menyiapkan bahan dan alat yang akan digunakan. Bahan yang dibutuh antara lain kertas kado (kertas yang memiliki motif yang cantik), manik-manik, dan kawat. Alat yang digunakan yaitu gunting, penggaris, lem kertas, dan bukaan kaleng. Setelah bahan dan alat sudah tersedia, kemudian potong tutup atas kaleng dengan menggunakan bukaan kaleng. Setelah dibuka dan dirapihkan, kemudian bagian bawah kaleng bekas dapat digunakan sebagai wadah pensil atau dapat juga sebagai vas bunga. Untuk mempercantik wadah pensil dapat dengan menempelkan kertas kado sesuai dengan ukuran kaleng dan ditempelkan.",
+            "Bagian tutupnya dapat di manfaatkan sebagai aksesoris seperti bros, dengan cara mengaitkan manik-manik dengan tutup kaleng menggunakan kawat untuk membentuk kupu-kupu. Manfaat lain, kaleng bisa di cat, diberi label. Mungkin sebagai tempat pensil, bolpen, vas bunga sementara di dalam ruangan, dan hal lainnya."
+        ],
+        "context":[""]
+    },
+    {
+        "tag":"mengolah sampah kaca",
+        "patterns":[
+            "Bagaimana cara daur ulang sampah kaca",
+            "Cara mengolah sampah kaca",
+            "Cara daur ulang sampah kaca",
+            "Daur ulang sampah kaca",
+            "Daur ulang kaca",
+            "Mengolah kaca"
+        ],
+        "responses":[
+            ""
+
+        ],
+        "context":[""]
+    }
+
+
+
+
+
+
+
+  ]
+}
